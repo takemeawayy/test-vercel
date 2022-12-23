@@ -5,8 +5,6 @@ import { IPost } from '../../../interfaces/post.interface'
 import PostItem from '../../../ui/post-item/PostItem'
 
 const Post: FC<{ post: IPost }> = ({ post }) => {
-	console.log(post)
-
 	return (
 		<div>
 			<Head>
