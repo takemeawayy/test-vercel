@@ -1,0 +1,19 @@
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    background-color: red;
+    position: absolute;
+    z-index: 1000;
+    left: 45%;
+}
+
+.progress {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: black;
+    bottom: 100px;
+  }
+  
