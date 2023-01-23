@@ -15,5 +15,23 @@
     height: 5px;
     background: black;
     bottom: 100px;
-  }
-  
+}
+
+.box_targ {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    background-color: yellow;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 60%;
+}
+
+.box_rel {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    background-color: red;
+    z-index: 1000;
+}
